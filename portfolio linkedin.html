@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Electrical Engineering Co-op | RF, Hardware, Aerospace</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#e9eef0;--panel:#f7f9fa;--ink:#14212b;--mute:#4d5f6b;--line:#c5d1d7;--trace:#0b6e8a;--mark:#c46f00;--btn:#14212b;--btnt:#f7f9fa;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121b21;--panel:#1a262d;--ink:#e6eef2;--mute:#9db0bb;--line:#2f414b;--trace:#4cc3e0;--mark:#f0a030;--btn:#e6eef2;--btnt:#121b21}}
+:root[data-theme="dark"]{--bg:#121b21;--panel:#1a262d;--ink:#e6eef2;--mute:#9db0bb;--line:#2f414b;--trace:#4cc3e0;--mark:#f0a030;--btn:#e6eef2;--btnt:#121b21}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "Instrument Sans",system-ui,sans-serif}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-family:"Bricolage Grotesque","Instrument Sans",sans-serif;line-height:1.1;margin:0}
+h1{font-size:clamp(2.1rem,5.5vw,3.6rem);font-weight:700;max-width:18ch;letter-spacing:-.02em}
+h2{font-size:1.7rem;font-weight:700;margin-bottom:1rem}
+h3{font-size:1.15rem;font-weight:700}
+p{margin:0 0 1rem;max-width:62ch}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--mark);outline-offset:3px}
+.id{display:flex;align-items:center;gap:1rem;padding:1.5rem 0 0}
+.photo{width:4.5rem;height:4.5rem;border-radius:50%;object-fit:cover;border:2px solid var(--line);flex:none}
+.id b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:1.35rem;line-height:1.2}
+.id span{color:var(--mute);font-size:.95rem}
+.hero{padding:2.5rem 0 2.5rem}
+.sub{font-size:1.2rem;color:var(--mute);max-width:52ch;margin:1.25rem 0 1.75rem}
+.btn{display:inline-block;background:var(--btn);color:var(--btnt);padding:.8rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:600}
+.btn:hover{opacity:.88}
+.scope{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1rem 1rem 1.1rem;margin-top:2.5rem}
+.scope svg{width:100%;height:auto;display:block}
+.scope .row{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;margin-top:.6rem}
+.scope label{font-weight:600;font-size:.95rem}
+.scope input{width:min(20rem,100%);accent-color:var(--mark)}
+#read{color:var(--mute);font-size:.95rem;min-height:1.6em;margin:.4rem 0 0}
+.cap{font-size:.9rem;color:var(--mute);margin:.75rem 0 0}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+.job{display:grid;grid-template-columns:11rem 1fr;gap:.5rem 2rem;padding:1.4rem 0;border-bottom:1px solid var(--line)}
+.job:last-child{border-bottom:0}
+.when{color:var(--mute);font-size:.95rem}
+.job ul{margin:.6rem 0 0;padding-left:1.1rem}
+.job li{margin-bottom:.4rem;max-width:62ch}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem}
+.feat a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:1.1rem;text-decoration:none}
+.feat a:hover{border-color:var(--trace)}
+.feat strong{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:1.1rem;margin-bottom:.35rem}
+.feat span{color:var(--mute);font-size:.95rem}
+.contact{background:var(--ink);color:var(--bg);border-radius:12px;padding:2rem;margin:1rem 0 3rem}
+.contact h2{color:var(--bg)}
+.contact p{color:inherit}
+.contact .btn{background:var(--mark);color:#14212b}
+footer{padding:0 0 2.5rem;color:var(--mute);font-size:.9rem}
+@media (max-width:640px){.job{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<div class="id">
+  <img class="photo" alt="Photo of Your Name" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23c5d1d7'/%3E%3Ccircle cx='50' cy='38' r='17' fill='%234d5f6b'/%3E%3Cpath d='M16 100c0-24 16-38 34-38s34 14 34 38z' fill='%234d5f6b'/%3E%3C/svg%3E">
+  <div><b>Your Name</b><span>Electrical and Electronics Engineering (Co-op), University of Ottawa</span></div>
+</div>
+<header class="hero">
+  <h1>First-year EE co-op at uOttawa working on RF receiver testing and beamforming</h1>
+  <p class="sub">I use signal generators and spectrum analyzers on uOttawa Rocketry's beamforming team. Looking for hardware and RF co-op opportunities.</p>
+  <a class="btn" href="mailto:your.email@example.com?subject=RF">Email me with the subject “RF”</a>
+
+  <div class="scope" role="group" aria-label="Spectrum analyzer demo">
+    <svg id="sa" viewBox="0 0 800 260" role="img" aria-label="Spectrum trace showing two close signals"></svg>
+    <div class="row">
+      <label for="rbw">Resolution bandwidth</label>
+      <input id="rbw" type="range" min="0" max="100" value="15">
+    </div>
+    <p id="read" aria-live="polite"></p>
+    <p class="cap">Two signals sit close together. A narrow resolution bandwidth separates them; a wide one blurs them into one. Drag the slider to see why measurement settings matter.</p>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I joined the beamforming team at uOttawa Rocketry in my first semester of electrical engineering. Since then, I’ve been working with signal generators and spectrum analyzers to test RF receivers.</p>
+  <p>I want to understand how a signal becomes hardware people can trust. In receiver testing, I’ve learned that settings like frequency span, resolution bandwidth, and sweep time change what you can actually see, so a good measurement is a deliberate one.</p>
+  <p>Before engineering, I refereed competitive soccer for Lakeshore Soccer Club, where I made fast decisions and explained them calmly to people who disagreed. I also worked retail at Pharmaprix, where accuracy and patience came with the job.</p>
+  <p>I work with discipline, take feedback well, and follow through. I’m now building skills in PCB design and electronics prototyping.</p>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="job"><div class="when">2026 to present</div><div>
+    <h3>Beamforming Team Member, uOttawa Rocketry</h3>
+    <ul>
+      <li>Run receiver-testing activities using signal generation and spectrum-analyzer measurements.</li>
+      <li>Learned how frequency span, resolution bandwidth, and sweep time affect measurement clarity, and applied that when reviewing results with teammates.</li>
+      <li>Contribute to a team learning beamforming fundamentals and hardware evaluation from scratch.</li>
+    </ul></div></div>
+  <div class="job"><div class="when">2024 to 2025</div><div>
+    <h3>Soccer Referee, Lakeshore Soccer Club</h3>
+    <ul>
+      <li>Officiated competitive matches, making real-time calls under pressure from players and coaches.</li>
+      <li>Explained decisions clearly and stayed composed when challenged, the same skill that makes design reviews and test debriefs go well.</li>
+    </ul></div></div>
+  <div class="job"><div class="when">Retail</div><div>
+    <h3>Cashier, Pharmaprix</h3>
+    <ul><li>Handled customer transactions accurately in a fast-paced, customer-facing setting.</li></ul></div></div>
+</section>
+
+<section id="featured">
+  <h2>Featured</h2>
+  <div class="feat">
+    <a href="#resume"><strong>Download my resume</strong><span>One page: Rocketry first, then skills and test equipment.</span></a>
+    <a href="#rf"><strong>What I learned testing RF receivers</strong><span>Span, resolution bandwidth, and sweep time in plain language.</span></a>
+    <a href="#projects"><strong>See my electronics projects</strong><span>Circuits, PCBs, and measurement write-ups as I finish them.</span></a>
+  </div>
+</section>
+
+<div class="contact" id="contact">
+  <h2>Hiring for RF, hardware, or aerospace co-ops?</h2>
+  <p>Or working in the field and happy to compare notes? Email me with the subject line “RF” and I’ll reply within 48 hours.</p>
+  <a class="btn" href="mailto:your.email@example.com?subject=RF">your.email@example.com</a>
+  <p style="margin:1.25rem 0 0;font-size:.95rem">Students and engineers: send a LinkedIn connection request with a short note.</p>
+</div>
+</main>
+<footer class="wrap">Electrical and Electronics Engineering (Co-op), University of Ottawa, started September 2026.</footer>
+
+<script>
+(function(){
+  var svg=document.getElementById('sa'),sl=document.getElementById('rbw'),rd=document.getElementById('read');
+  var N=160,W=800,H=260,top=20,bot=230,t=0;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var NS='http://www.w3.org/2000/svg';
+  function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
+  var grid='';
+  for(var i=0;i<=10;i++){var x=i*80;grid+='<line x1="'+x+'" y1="'+top+'" x2="'+x+'" y2="'+bot+'" stroke="var(--line)"/>'}
+  for(var j=0;j<=4;j++){var y=top+j*(bot-top)/4;grid+='<line x1="0" y1="'+y+'" x2="'+W+'" y2="'+y+'" stroke="var(--line)"/>'}
+  svg.innerHTML=grid+'<path id="tr" fill="none" stroke="var(--trace)" stroke-width="2.5" stroke-linejoin="round"/><path id="mk" fill="var(--mark)"/>';
+  var tr=document.getElementById('tr'),mk=document.getElementById('mk');
+  function rnd(i,t){return Math.sin(i*12.9898+t*7.13)*43758.5453%1}
+  function draw(){
+    var r=sl.value/100,w=0.012+r*0.085,floor=0.07+r*0.16,d='',peak=0,px=0;
+    for(var i=0;i<=N;i++){
+      var x=i/N,a=Math.exp(-Math.pow((x-0.44)/w,2)),b=0.85*Math.exp(-Math.pow((x-0.56)/w,2));
+      var v=floor+Math.abs(rnd(i,Math.floor(t)))*0.05*(1-r*0.6)+0.7*a+0.7*b;
+      if(v>1)v=1;
+      if(v>peak){peak=v;px=x}
+      d+=(i?'L':'M')+(x*W).toFixed(1)+' '+(bot-v*(bot-top)).toFixed(1)
+    }
+    tr.setAttribute('d',d);
+    var cx=px*W,cy=bot-peak*(bot-top);
+    mk.setAttribute('d','M'+cx+' '+(cy-4)+'l-7 -12h14z');
+    rd.textContent=r>0.45?'Wide bandwidth: the two signals merge into one. Higher noise floor too.':'Narrow bandwidth: both signals are resolved and the noise floor is lower.';
+  }
+  sl.addEventListener('input',draw);
+  draw();
+  if(!reduce){setInterval(function(){t+=1;draw()},180)}
+})();
+</script>
+</body>
+</html>
